@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kavipriya E – Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#f4f6fb;--surface:#fff;--ink:#14213d;--muted:#51607d;--line:#d9e0ee;--accent:#2f5bea;--accent-soft:#e6ecff;--on-accent:#fff;
+--head:"Bricolage Grotesque","Trebuchet MS",Arial,sans-serif;--body:"Public Sans","Segoe UI",Arial,sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#0f1426;--surface:#171e36;--ink:#eef1fb;--muted:#a3aecb;--line:#2a3354;--accent:#8aa4ff;--accent-soft:#1f2a55;--on-accent:#0f1426}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#0f1426;--surface:#171e36;--ink:#eef1fb;--muted:#a3aecb;--line:#2a3354;--accent:#8aa4ff;--accent-soft:#1f2a55;--on-accent:#0f1426}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 var(--body)}
+a{color:var(--accent)}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+.wrap{max-width:860px;margin:0 auto;padding:0 1.25rem}
+header.hero{padding:4.5rem 0 3rem}
+h1{font:800 clamp(2.8rem,9vw,5.2rem)/0.98 var(--head);letter-spacing:-.03em;margin:0 0 1rem}
+.role{font:500 clamp(1.15rem,3vw,1.5rem)/1.4 var(--head);color:var(--muted);margin:0 0 1.75rem;max-width:30ch}
+.links{display:flex;flex-wrap:wrap;gap:.6rem}
+.btn{display:inline-block;padding:.65rem 1.1rem;border-radius:999px;border:1.5px solid var(--ink);color:var(--ink);text-decoration:none;font-weight:600;font-size:.98rem}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.btn:hover{background:var(--accent-soft);color:var(--ink)}
+.btn.primary:hover{filter:brightness(1.1);color:var(--on-accent);background:var(--accent)}
+section{padding:2.5rem 0;border-top:1px solid var(--line)}
+h2{font:700 1.7rem/1.2 var(--head);letter-spacing:-.01em;margin:0 0 1.25rem}
+h3{font:700 1.2rem/1.3 var(--head);margin:0}
+p{margin:0 0 1rem}
+.about{font-size:1.15rem;max-width:62ch}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem}
+.skills div{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1rem 1.1rem}
+.skills b{display:block;font:700 1rem var(--head);margin-bottom:.35rem}
+.skills span{color:var(--muted)}
+.project{background:var(--surface);border:1px solid var(--line);border-left:6px solid var(--accent);border-radius:6px 18px 18px 6px;padding:1.5rem}
+.tags{display:flex;flex-wrap:wrap;gap:.4rem;margin:.75rem 0 1rem;padding:0;list-style:none}
+.tags li{background:var(--accent-soft);color:var(--ink);padding:.2rem .7rem;border-radius:999px;font-size:.9rem;font-weight:500}
+ul.pts{margin:0;padding-left:1.2rem}
+ul.pts li{margin-bottom:.45rem}
+.job{display:grid;grid-template-columns:1fr;gap:.2rem;margin-bottom:1.75rem}
+.when{color:var(--muted);font-size:.95rem}
+.edu{display:flex;justify-content:space-between;flex-wrap:wrap;gap:.25rem 1rem;padding:.7rem 0;border-bottom:1px dashed var(--line)}
+.edu:last-child{border-bottom:0}
+.edu small{color:var(--muted);font-size:.95rem}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:2rem}
+footer{padding:2.5rem 0 3rem;border-top:1px solid var(--line);color:var(--muted);font-size:.95rem}
+@media (min-width:700px){.job{grid-template-columns:1fr auto;align-items:baseline}.job ul{grid-column:1/-1}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+<h1>Kavipriya E</h1>
+<p class="role">Computer Science and Business Systems student building with Python, Django and machine learning.</p>
+<div class="links">
+<a class="btn primary" href="mailto:ekavipriya978766@gmail.com">Email me</a>
+<a class="btn" href="https://github.com/ekavipriya978766-ux" target="_blank" rel="noopener">GitHub</a>
+<a class="btn" href="https://www.linkedin.com/in/kavipriya-e-b9652341b" target="_blank" rel="noopener">LinkedIn</a>
+<a class="btn" href="tel:+917824987334">Call 7824987334</a>
+</div>
+</header>
+
+<section id="about">
+<h2>About</h2>
+<p class="about">I’m a Computer Science and Business Systems student with hands-on experience in Python, Django and machine learning, gained through an AI-based project and data analysis training. I’m looking for an internship where I can apply my technical and analytical skills, learn new technologies, and contribute to real-world software and AI solutions.</p>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="skills">
+<div><b>Programming</b><span>Python, Java</span></div>
+<div><b>Web framework</b><span>Django</span></div>
+<div><b>Machine learning</b><span>Text classification, AI model integration (Gemini AI)</span></div>
+<div><b>Database</b><span>MongoDB</span></div>
+<div><b>Tools</b><span>Excel, Visual Studio Code, GitHub, LeetCode</span></div>
+</div>
+</section>
+
+<section id="project">
+<h2>Project</h2>
+<div class="project">
+<h3>AI-Based Hostel Complaint Severity Prediction System</h3>
+<ul class="tags"><li>Python</li><li>Django</li><li>Machine Learning</li><li>TF-IDF</li><li>Gemini AI</li></ul>
+<p>Predicts whether a hostel complaint is High, Medium or Low severity, so management can respond to urgent issues first.</p>
+<ul class="pts">
+<li>Role-based login, complaint management, AI severity prediction and dashboards.</li>
+<li>Machine learning model that classifies complaint text and prioritises urgent issues.</li>
+<li>Gemini AI integrated to support severity analysis and improve prediction quality.</li>
+<li>Django backend covering complaint submission, tracking and status updates.</li>
+</ul>
+</div>
+</section>
+
+<section id="experience">
+<h2>Experience</h2>
+<div class="job">
+<h3>Zora Network Software Company – Data Analysis (remote)</h3>
+<span class="when">May 2026 – June 2026</span>
+<ul class="pts">
+<li>Cleaned, organised and prepared real-world datasets using Excel and Python.</li>
+<li>Performed exploratory data analysis to find trends, patterns and key insights.</li>
+<li>Created charts and visualisations to present findings for decision-making.</li>
+</ul>
+</div>
+<div class="job">
+<h3>Datatech – Digital Marketing (remote)</h3>
+<span class="when">January 2025</span>
+<ul class="pts">
+<li>Learned SEO, social media marketing, email marketing and content marketing.</li>
+<li>Studied audience targeting, campaign planning and tracking performance with basic analytics.</li>
+</ul>
+</div>
+</section>
+
+<section id="education">
+<h2>Education</h2>
+<div class="edu"><span><b>B.Tech – Computer Science and Business Systems</b><br><small>Dhaanish Ahmed College of Engineering, Chennai</small></span><span>2024–2028 · CGPA 8.89</span></div>
+<div class="edu"><span><b>HSC</b></span><span>2024 · 75%</span></div>
+<div class="edu"><span><b>SSLC</b></span><span>2022 · 70%</span></div>
+</section>
+
+<section id="more">
+<div class="two">
+<div>
+<h2>Certifications</h2>
+<ul class="pts"><li>MongoDB course, 2025</li><li>Data Analysis course, 2026</li></ul>
+</div>
+<div>
+<h2>Achievements</h2>
+<ul class="pts"><li>Participated in Smart India Hackathon (SIH) 2026</li><li>Participated in Stakathon (online, Dhaanish Ahmed College of Engineering)</li><li>Academic class rank holder</li></ul>
+</div>
+</div>
+</section>
+
+<footer>
+Open to internships. Reach me at <a href="mailto:ekavipriya978766@gmail.com">ekavipriya978766@gmail.com</a>.
+</footer>
+</div>
+</body>
+</html>
